@@ -1,0 +1,716 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1791724547.962][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1791724548.745][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"154.0.8037.99\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"154.0.8037.92 (334b65d254ccc35df4fca82706d1753227b01039-refs/branch-heads/8037@{#1589})\",\n         \"userDataDir\": \"C:\\\\Users\\\\Edwin\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir26496_1577721308\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:49690\"\n      },\n      \"goog:processID\": 11180,\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:cmtgKey\": true,\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"~~~\": \"...\"\n   },\n   \"sessionId\": \"d999316d9bf66cc16c7d6e5fdcb830da\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724548.899][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1791724548.928][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE MaximizeWindow {\n   \"height\": 766,\n   \"width\": 1294,\n   \"x\": -7,\n   \"y\": 42\n}\n"
+        },
+        {
+            "COMMAND": "[1791724548.939][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1791724551.123][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1791724551.135][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724551.159][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724551.673][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724551.714][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724552.221][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724552.229][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724552.751][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724552.762][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724553.268][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724553.275][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724553.786][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724553.795][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724554.304][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724554.310][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724554.822][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724554.829][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724555.347][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724555.353][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724555.860][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724555.866][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724556.378][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724556.384][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724556.890][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724556.896][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724557.406][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724557.412][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724557.920][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724557.927][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724558.433][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724558.439][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724558.947][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724558.953][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724559.467][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724559.474][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724559.980][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724559.986][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724560.493][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724560.500][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724561.004][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724561.009][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724561.516][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724561.521][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724562.026][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724562.032][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724562.539][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724562.549][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724563.062][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724563.068][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724563.573][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724563.579][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724564.084][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724564.089][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724564.593][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724564.599][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724565.105][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724565.111][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724565.616][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724565.622][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724566.130][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724566.135][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724566.139][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724566.146][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.00A011433D57253FE8D4F874AF5D749C.e.72\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724566.166][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724566.171][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.00A011433D57253FE8D4F874AF5D749C.e.72\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724566.185][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND TypeElement {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.00A011433D57253FE8D4F874AF5D749C.e.72\",\n   \"text\": \"Washing Machine\",\n   \"value\": [ \"W\", \"a\", \"s\", \"h\", \"i\", \"n\", \"g\", \" \", \"M\", \"a\", \"c\", \"h\", \"i\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1791724566.275][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1791724566.277][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724566.288][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.00A011433D57253FE8D4F874AF5D749C.e.72\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724569.472][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724569.499][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724570.004][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724570.013][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724570.530][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724570.539][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724571.057][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724571.065][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724571.573][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724571.582][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724572.089][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724572.098][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724572.617][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724572.626][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724573.131][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724573.139][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724573.644][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724573.652][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724574.158][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724574.168][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724574.674][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724574.683][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724575.188][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724575.197][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724575.703][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724575.713][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724576.217][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724576.225][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724576.730][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724576.739][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724577.246][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724577.255][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724577.765][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724577.773][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724578.289][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724578.296][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724578.807][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724578.814][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724579.330][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724579.338][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724579.855][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724579.863][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724580.370][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724580.388][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724580.893][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724580.902][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724581.409][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724581.417][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724581.925][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724581.936][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724582.454][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724582.462][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724582.969][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724582.977][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724583.485][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724583.498][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724584.004][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724584.012][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724584.519][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[@class='slBgO' or @class='KzDlHZ' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724584.527][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724584.532][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1791724586.578][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1791724586.581][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724586.638][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724587.152][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724587.160][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724587.664][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724587.673][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724588.177][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724588.183][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724588.689][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724588.695][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724589.204][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724589.211][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724589.720][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724589.727][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724590.236][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724590.245][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724590.752][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724590.760][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724591.269][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724591.275][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724591.781][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724591.788][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724592.293][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724592.299][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724592.805][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724592.811][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724593.318][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724593.324][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724593.829][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724593.834][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724594.348][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724594.354][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724594.859][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724594.866][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724595.376][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724595.382][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724595.892][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724595.899][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724596.405][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724596.411][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724596.919][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724596.925][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724597.435][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724597.442][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724597.951][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724597.957][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724598.463][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724598.470][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724598.978][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724598.984][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724599.491][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724599.498][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724600.003][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724600.010][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724600.515][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724600.522][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724601.030][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724601.036][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724601.545][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724601.551][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724602.058][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724602.064][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724602.066][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724602.071][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.494286DD6919955BBB837FF3C10BA7EF.e.1958\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724602.082][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724602.087][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.494286DD6919955BBB837FF3C10BA7EF.e.1958\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724602.098][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND TypeElement {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.494286DD6919955BBB837FF3C10BA7EF.e.1958\",\n   \"text\": \"iPhone\",\n   \"value\": [ \"i\", \"P\", \"h\", \"o\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1791724602.156][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1791724602.158][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724602.167][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.494286DD6919955BBB837FF3C10BA7EF.e.1958\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724603.490][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[contains(text(), '% off')]\"\n}\n",
+            "RESPONSE": "[1791724603.502][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2542\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2543\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2544\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2545\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2546\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2547\"\n} ]\n"
+        },
+        {
+            "COMMAND": "[1791724603.504][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//*[contains(text(), '% off')]\"\n}\n",
+            "RESPONSE": "[1791724603.513][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2542\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2543\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2544\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2545\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2546\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2547\"\n} ]\n"
+        },
+        {
+            "COMMAND": "[1791724603.515][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND GetElementText {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2542\"\n}\n",
+            "RESPONSE": "[1791724603.535][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE GetElementText \"12% off\"\n"
+        },
+        {
+            "COMMAND": "[1791724603.537][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND GetElementText {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2543\"\n}\n",
+            "RESPONSE": "[1791724603.545][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE GetElementText \"12% off\"\n"
+        },
+        {
+            "COMMAND": "[1791724603.547][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND GetElementText {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2544\"\n}\n",
+            "RESPONSE": "[1791724603.552][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE GetElementText \"12% off\"\n"
+        },
+        {
+            "COMMAND": "[1791724603.554][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND GetElementText {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2545\"\n}\n",
+            "RESPONSE": "[1791724603.562][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE GetElementText \"12% off\"\n"
+        },
+        {
+            "COMMAND": "[1791724603.564][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND GetElementText {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2546\"\n}\n",
+            "RESPONSE": "[1791724603.570][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE GetElementText \"9% off\"\n"
+        },
+        {
+            "COMMAND": "[1791724603.571][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND GetElementText {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.C8D897710A723475B3CCF21F7F29DF59.e.2547\"\n}\n",
+            "RESPONSE": "[1791724603.579][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE GetElementText \"9% off\"\n"
+        },
+        {
+            "COMMAND": "[1791724603.582][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1791724605.955][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1791724605.957][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724606.026][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724606.543][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724606.574][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724607.087][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724607.093][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724607.601][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724607.607][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724608.118][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724608.124][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724608.631][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724608.637][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724609.147][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724609.154][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724609.659][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724609.665][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724610.173][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724610.180][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724610.687][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724610.693][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724611.202][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724611.208][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724611.713][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724611.720][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724612.224][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724612.231][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724612.736][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724612.743][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724613.251][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724613.258][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724613.766][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724613.772][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724614.281][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724614.287][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724614.799][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724614.805][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724615.312][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724615.318][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724615.829][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724615.836][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724616.340][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724616.347][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724616.856][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724616.862][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724617.371][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724617.376][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724617.887][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724617.892][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724618.397][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724618.403][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724618.912][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724618.921][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724619.426][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724619.432][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724619.943][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724619.949][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724620.459][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724620.465][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724620.971][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//input[@placeholder='Search for products, brands and more']\"\n}\n",
+            "RESPONSE": "[1791724620.977][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Search for products, brands and more']\"}\n  (Session info: chrome=154.0.8037.99)\n"
+        },
+        {
+            "COMMAND": "[1791724620.979][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724620.983][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.FCC0E50C81E6D645E7467478ACF6E320.e.3925\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724620.996][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724621.002][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.FCC0E50C81E6D645E7467478ACF6E320.e.3925\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724621.012][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND TypeElement {\n   \"id\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.FCC0E50C81E6D645E7467478ACF6E320.e.3925\",\n   \"text\": \"Coffee Mug\",\n   \"value\": [ \"C\", \"o\", \"f\", \"f\", \"e\", \"e\", \" \", \"M\", \"u\", \"g\" ]\n}\n",
+            "RESPONSE": "[1791724621.079][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1791724621.081][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1791724621.091][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.1CF4D5F48095494EA94CD74815397D9B.d.FCC0E50C81E6D645E7467478ACF6E320.e.3925\"\n}\n"
+        },
+        {
+            "COMMAND": "[1791724623.312][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724623.322][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724623.835][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724623.842][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724624.354][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724624.361][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724624.866][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724624.872][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724625.387][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724625.393][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724625.904][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724625.911][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724626.419][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724626.426][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724626.930][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724626.937][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724627.445][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724627.452][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724627.961][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724627.968][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724628.475][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724628.482][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724628.998][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724629.005][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724629.511][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724629.517][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724630.026][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724630.033][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724630.538][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724630.544][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724631.051][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724631.057][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724631.567][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724631.574][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724632.082][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724632.089][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724632.598][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724632.604][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724633.112][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724633.139][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724633.646][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724633.653][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724634.165][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724634.172][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724634.679][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724634.685][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724635.192][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724635.198][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724635.708][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724635.715][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724636.224][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724636.231][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724636.740][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724636.747][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724637.253][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724637.260][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724637.770][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724637.777][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724638.287][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724638.294][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1791724638.801][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='slBgO' or @class='tJxwO']\"\n}\n",
+            "RESPONSE": "[1791724638.808][INFO]: [d999316d9bf66cc16c7d6e5fdcb830da] RESPONSE FindElements [  ]\n"
+        }
+    ]
+}
